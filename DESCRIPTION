@@ -1,0 +1,21 @@
+Package: diatobc
+Type: Package
+Title: Bioinformatic toolbox for my projects
+Version: 1.0
+Date: 2015-07-24
+Author: Francois Keck <francois.keck@gmail.com>
+Maintainer: Francois Keck <francois.keck@gmail.com>
+Description: Utilities and wrappers for various bioinformatic programs I use in my projects.
+Depends:
+    R (>= 3.0.2)
+Imports:
+    methods,
+    ape,
+    adephylo,
+    phylobase,
+    ips,
+    seqinr,
+    jsonlite,
+    stringr
+License: GPL-3
+RoxygenNote: 6.0.1
