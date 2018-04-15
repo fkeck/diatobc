@@ -15,7 +15,7 @@ insertBC(bc, ref, region, align.method = "mafft", align.exec = NULL,
 \item{region}{a vector of two integers giving the boundaries of the barcodes region within the reference alignment.}
 
 \item{align.method}{a character string giving the method to use for alignment.
-Available methods are "\code{mafft}" and "\code{muscle}".}
+Available methods are "\code{mafft}", "\code{muscle}" and "\code{none}" (to avoid alignment step).}
 
 \item{align.exec}{a character string giving the path of the program if necessary.}
 
@@ -30,4 +30,3 @@ A \code{DNAbin} alignment.
 This function inserts new barcodes into an alignment.
 For this purpose, the barcode region of the reference alignment is re-aligned with the new set of barcodes.
 }
-
